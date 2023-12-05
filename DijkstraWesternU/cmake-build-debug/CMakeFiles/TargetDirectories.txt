@@ -1,3 +1,0 @@
-/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug/CMakeFiles/DijkstraWesternU.dir
-/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug/CMakeFiles/rebuild_cache.dir

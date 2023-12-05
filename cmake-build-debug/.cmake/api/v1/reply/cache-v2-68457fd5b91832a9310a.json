@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug"
+			"value" : "/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/liamyoell/CLionProjects/DijkstraWesternU"
+			"value" : "/Users/liamyoell/Desktop/WesternMapping"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DijkstraWesternU"
+			"value" : "WesternMapping"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1102,7 +1102,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DijkstraWesternU_BINARY_DIR",
+			"name" : "WesternMapping_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1111,10 +1111,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug"
+			"value" : "/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug"
 		},
 		{
-			"name" : "DijkstraWesternU_IS_TOP_LEVEL",
+			"name" : "WesternMapping_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1126,7 +1126,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "DijkstraWesternU_SOURCE_DIR",
+			"name" : "WesternMapping_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/liamyoell/CLionProjects/DijkstraWesternU"
+			"value" : "/Users/liamyoell/Desktop/WesternMapping"
 		}
 	],
 	"kind" : "cache",

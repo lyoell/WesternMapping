@@ -1,0 +1,3 @@
+/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug/CMakeFiles/WesternMapping.dir
+/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug/CMakeFiles/rebuild_cache.dir

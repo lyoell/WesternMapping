@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "DijkstraWesternU",
+					"name" : "WesternMapping",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "DijkstraWesternU::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DijkstraWesternU-Debug-097cf5067882b4e8bead.json",
-					"name" : "DijkstraWesternU",
+					"id" : "WesternMapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WesternMapping-Debug-ae9125fdcfdaa9f40a18.json",
+					"name" : "WesternMapping",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/liamyoell/CLionProjects/DijkstraWesternU/cmake-build-debug",
-		"source" : "/Users/liamyoell/CLionProjects/DijkstraWesternU"
+		"build" : "/Users/liamyoell/Desktop/WesternMapping/cmake-build-debug",
+		"source" : "/Users/liamyoell/Desktop/WesternMapping"
 	},
 	"version" : 
 	{
