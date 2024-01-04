@@ -139,30 +139,32 @@ int main() {
     graph.addEdge(14,19,0.16,"Walk between the top of UC hill near the UCC and the top of UC hill near the physics building.");
     graph.addEdge(15,16,0.03,"Walk between the UC footpath at Music building and the stop sign there.");
     graph.addEdge(15,17,0.18,"Walk between the top of UC hill near the UCC and the top of UC hill near the physics building.");
-    graph.addEdge(16,18,0.33,"");
-    graph.addEdge(17,18,0.43,"");
-    graph.addEdge(18,20,0.32,"");
-    graph.addEdge(18,22,0.45,"");
-    graph.addEdge(19,20,0.08,"");
-    graph.addEdge(20,21,0.12,"");
-    graph.addEdge(22,23,0.28,"");
-    graph.addEdge(22,24,0.1,"");
-    graph.addEdge(23,26,0.27,"");
-    graph.addEdge(24,25,0.42,"");
-    graph.addEdge(24,29,0.3,"");
-    graph.addEdge(25,28,0.17,"");
-    graph.addEdge(25,26,0.12,"");
-    graph.addEdge(26,27,0.21,"");
-    graph.addEdge(27,28,0.14,"");
-    graph.addEdge(28,29,0.16,"");
+    graph.addEdge(16,18,0.33,"Walk between the stop sign next to the music building and the lights on Perth Drive x University Drive.");
+    graph.addEdge(17,18,0.43,"Walk between the bottom of UC hill and the lights on Perth Drive x University Drive");
+    graph.addEdge(18,20,0.32,"Walk between the lights on Perth Drive x University Drive and the top of the UC hill paved road stop sign.");
+    graph.addEdge(18,22,0.45,"Walk between the lights on Perth Drive x University Drive and the Sunset Drive intersection.");
+    graph.addEdge(19,20,0.08,"Walk between the top of UC hill and the top of the UC hill paved road stop sign.");
+    graph.addEdge(20,21,0.12,"Walk between the top of the UC hill paved stop sign and the Nat Sci physics building.");
+    graph.addEdge(22,23,0.28,"Walk between the Sunset intersection and Huron Road.");
+    graph.addEdge(22,24,0.1,"Walk between the Sunset intersection and the Med Syd pass through lot.");
+    graph.addEdge(23,26,0.27,"Walk between Huron Road and Audrey Ave");
+    graph.addEdge(24,25,0.42,"Walk between the Med Syd pass through lot and the Broughdale x Audrey intersection.");
+    graph.addEdge(24,29,0.3,"Walk between the Med Syd pass through lot and the Richmond lights.");
+    graph.addEdge(25,28,0.17,"Walk between the Broughdale x Audrey intersection and Richmond.");
+    graph.addEdge(25,26,0.12,"Walk between the Broughdale x Audrey intersection and Huron.");
+    graph.addEdge(26,27,0.21,"Walk between the Huron x Audrey intersection and Richmond x Huron");
+    graph.addEdge(27,28,0.14,"Walk between the Huron x Richmond intersection and Broughdale x Richmond intersection.");
+    graph.addEdge(28,29,0.16,"Walk between the Broughdale x Richmond intersection and Main gates.");
 
 
     // Specify source and destination vertices
     int source = 0;
 
-    int destination;
+    int destination=0;
 
     // Prompt the user for input and read
+    std::cout << "Enter your destination: ";
+    std::cin >> source;
     std::cout << "Enter your destination: ";
     std::cin >> destination;
     graph.dijkstra(source);
